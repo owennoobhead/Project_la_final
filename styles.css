@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(10, 70, 159);
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+/* The output text will take up 65% of screen */
+.Output {
+    width: 65%;
+    padding-left: 30px;
+}
+
+/* Border next to the actions page */
+.Input {
+    border-left: 5px solid black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Design of button */
+#show-joke {
+    width: 200px;
+    height: 35px;
+    border: 2px solid black;
+    background: transparent;
+    color: gold
+}
+
+#show-meme {
+    width: 200px;
+    height: 35px;
+    border: 2px solid black;
+    background: transparent;
+    color: gold
+}
+
+#show-joke:hover {
+    cursor: pointer;
+    background-color: rgb(24, 214, 33)
+}
+
+#show-meme:hover {
+    cursor: pointer;
+    background-color: rgb(24, 214, 33)
+}
